@@ -1,64 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Entities
- build="latest"
- majorVersion="0"
- minorVersion="0"
- modelPersistenceProviderPackage="PostgresPersistenceProviderPackage"
- revision="0"
- schemaVersion="1053"
- universal="password">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Entities build="latest" majorVersion="0" minorVersion="0" modelPersistenceProviderPackage="PostgresPersistenceProviderPackage" revision="0" schemaVersion="1053" universal="password">
     <Users>
-        <User
-         description=""
-         documentationContent=""
-         enabled="true"
-         homeMashup=""
-         lastModifiedDate="2020-05-28T23:58:03.695+05:30"
-         locked="false"
-         lockedTime="2018-07-12T00:41:44.273+05:30"
-         mobileMashup=""
-         name="nonAdminUser2"
-         projectName="PermissionTest"
-         scimExternalId=""
-         scimId=""
-         tags="">
-            <avatar></avatar>
+        <User description="" documentationContent="" enabled="true" homeMashup="" locked="false" lockedTime="2018-07-12T00:41:44.273+05:30" mobileMashup="" name="nonAdminUser2" projectName="PermissionTest" scimExternalId="" scimId="" tags="">
+            <avatar/>
             <DesignTimePermissions>
-                <Create></Create>
-                <Read></Read>
-                <Update></Update>
-                <Delete></Delete>
-                <Metadata></Metadata>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
             </DesignTimePermissions>
-            <RunTimePermissions></RunTimePermissions>
+            <RunTimePermissions/>
             <VisibilityPermissions>
-                <Visibility></Visibility>
+                <Visibility/>
             </VisibilityPermissions>
-            <ConfigurationTableDefinitions></ConfigurationTableDefinitions>
+            <ConfigurationTableDefinitions/>
             <ConfigurationTables>
-                <ConfigurationTable
-                 description="UserExtensions"
-                 isMultiRow="true"
-                 name="UserExtensions"
-                 ordinal="1">
+                <ConfigurationTable description="UserExtensions" isMultiRow="true" name="UserExtensions" ordinal="1">
                     <DataShape>
                         <FieldDefinitions>
-                            <FieldDefinition
-                             baseType="DATETIME"
-                             description="Last update time"
-                             name="lastUpdateTime"
-                             ordinal="3"></FieldDefinition>
-                            <FieldDefinition
-                             aspect.isPrimaryKey="true"
-                             baseType="STRING"
-                             description="Name"
-                             name="name"
-                             ordinal="1"></FieldDefinition>
-                            <FieldDefinition
-                             baseType="STRING"
-                             description="Value"
-                             name="value"
-                             ordinal="2"></FieldDefinition>
+                            <FieldDefinition baseType="DATETIME" description="Last update time" name="lastUpdateTime" ordinal="3"/>
+                            <FieldDefinition aspect.isPrimaryKey="true" baseType="STRING" description="Name" name="name" ordinal="1"/>
+                            <FieldDefinition baseType="STRING" description="Value" name="value" ordinal="2"/>
                         </FieldDefinitions>
                     </DataShape>
                     <Rows>
@@ -69,7 +31,7 @@
                             firstName
                             ]]>
                             </name>
-                            <value></value>
+                            <value/>
                         </Row>
                         <Row>
                             <lastUpdateTime>1970-01-01T05:30:00.000+05:30</lastUpdateTime>
@@ -78,7 +40,7 @@
                             lastName
                             ]]>
                             </name>
-                            <value></value>
+                            <value/>
                         </Row>
                         <Row>
                             <lastUpdateTime>1970-01-01T05:30:00.000+05:30</lastUpdateTime>
@@ -87,7 +49,7 @@
                             emailAddress
                             ]]>
                             </name>
-                            <value></value>
+                            <value/>
                         </Row>
                         <Row>
                             <lastUpdateTime>1970-01-01T05:30:00.000+05:30</lastUpdateTime>
@@ -96,7 +58,7 @@
                             smsAddress
                             ]]>
                             </name>
-                            <value></value>
+                            <value/>
                         </Row>
                         <Row>
                             <lastUpdateTime>1970-01-01T05:30:00.000+05:30</lastUpdateTime>
@@ -105,7 +67,7 @@
                             mobilePhone
                             ]]>
                             </name>
-                            <value></value>
+                            <value/>
                         </Row>
                         <Row>
                             <lastUpdateTime>1970-01-01T05:30:00.000+05:30</lastUpdateTime>
@@ -117,9 +79,9 @@
                             <value>
                                 <infoTable>
                                     <DataShape>
-                                        <FieldDefinitions></FieldDefinitions>
+                                        <FieldDefinitions/>
                                     </DataShape>
-                                    <Rows></Rows>
+                                    <Rows/>
                                 </infoTable>
                             </value>
                         </Row>
@@ -130,7 +92,7 @@
                             homePhone
                             ]]>
                             </name>
-                            <value></value>
+                            <value/>
                         </Row>
                         <Row>
                             <lastUpdateTime>1970-01-01T05:30:00.000+05:30</lastUpdateTime>
@@ -157,7 +119,7 @@
                             middleName
                             ]]>
                             </name>
-                            <value></value>
+                            <value/>
                         </Row>
                         <Row>
                             <lastUpdateTime>1970-01-01T05:30:00.000+05:30</lastUpdateTime>
@@ -166,7 +128,7 @@
                             workPhone
                             ]]>
                             </name>
-                            <value></value>
+                            <value/>
                         </Row>
                         <Row>
                             <lastUpdateTime>1970-01-01T05:30:00.000+05:30</lastUpdateTime>
@@ -175,54 +137,40 @@
                             title
                             ]]>
                             </name>
-                            <value></value>
+                            <value/>
                         </Row>
                     </Rows>
                 </ConfigurationTable>
-                <ConfigurationTable
-                 description="Settings"
-                 isMultiRow="false"
-                 name="Settings"
-                 ordinal="2">
+                <ConfigurationTable description="Settings" isMultiRow="false" name="Settings" ordinal="2">
                     <DataShape>
                         <FieldDefinitions>
-                            <FieldDefinition
-                             aspect.defaultValue=""
-                             aspect.isPrimaryKey="true"
-                             baseType="STRING"
-                             description="Primary language"
-                             name="language"
-                             ordinal="0"></FieldDefinition>
+                            <FieldDefinition aspect.defaultValue="" aspect.isPrimaryKey="true" baseType="STRING" description="Primary language" name="language" ordinal="0"/>
                         </FieldDefinitions>
                     </DataShape>
                     <Rows>
                         <Row>
-                            <language></language>
+                            <language/>
                         </Row>
                     </Rows>
                 </ConfigurationTable>
             </ConfigurationTables>
             <PersistentValues>
-                <PersistentValue
-                 name="IDE_History_MRU_Entities">
+                <PersistentValue name="IDE_History_MRU_Entities">
                 <![CDATA[
                 {"IDE_History_MRU_Entities":[{"entityDescription":"","entityName":"ToggleTest","entityType":"Mashups"},{"entityDescription":"","entityName":"thing2user2","entityType":"Things"},{"entityName":"GenericThing","entityType":"ThingTemplates"}]}
                 ]]>
                 </PersistentValue>
-                <PersistentValue
-                 name="IDE_LicenseClicked">
+                <PersistentValue name="IDE_LicenseClicked">
                 <![CDATA[
                 {"IDE_LicenseClicked":true}
                 ]]>
                 </PersistentValue>
-                <PersistentValue
-                 name="User_MashupFavorites">
+                <PersistentValue name="User_MashupFavorites">
                 <![CDATA[
                 {"rows":[{"items":[]}]}
                 ]]>
                 </PersistentValue>
-                <PersistentValue
-                 name="recentlyAccessed">
+                <PersistentValue name="recentlyAccessed">
                 <![CDATA[
                 {"array":[{"entityTimestamp":1572505663676,"isEditing":false,"mode":"edit","name":"ToggleTest","projectName":"__unassigned__","projectTimestamp":1562872792477,"selected":true,"title":"Mashup:ToggleTest","type":"Mashup"},{"entityTimestamp":1562872792477,"isEditing":false,"mode":"read","name":"thing2user2","projectName":"__unassigned__","projectTimestamp":1562872792477,"selected":false,"title":"Thing:thing2user2","type":"Thing"}],"settings":{"sortBy":"recent"}}
                 ]]>

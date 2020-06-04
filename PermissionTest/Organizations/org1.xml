@@ -1,78 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Entities
- build="latest"
- majorVersion="0"
- minorVersion="0"
- modelPersistenceProviderPackage="PostgresPersistenceProviderPackage"
- revision="0"
- schemaVersion="1053"
- universal="password">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Entities build="latest" majorVersion="0" minorVersion="0" modelPersistenceProviderPackage="PostgresPersistenceProviderPackage" revision="0" schemaVersion="1053" universal="password">
     <Organizations>
-        <Organization
-         description=""
-         documentationContent=""
-         homeMashup=""
-         lastModifiedDate="2020-05-28T23:58:03.696+05:30"
-         loginButtonStyle=""
-         loginPrompt=""
-         loginResetPassword="false"
-         loginStyle=""
-         mobileMashup=""
-         name="org1"
-         projectName="PermissionTest"
-         resetMailContent="&lt;p&gt;[[resetemail.requestmade]]&lt;/p&gt;&#xA;&#xA;&lt;p&gt;[[resetemail.instructions]]&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&lt;p&gt;[[resetemail.helpneeded]]&lt;/p&gt;"
-         resetMailServer=""
-         resetMailSubject="[[resetemail.subject]]"
-         tags="">
-            <avatar></avatar>
+        <Organization description="" documentationContent="" homeMashup="" loginButtonStyle="" loginPrompt="" loginResetPassword="false" loginStyle="" mobileMashup="" name="org1" projectName="PermissionTest" resetMailContent="&lt;p&gt;[[resetemail.requestmade]]&lt;/p&gt;&#10;&#10;&lt;p&gt;[[resetemail.instructions]]&lt;/p&gt;&#10;&#10;&#10;&#10;&lt;p&gt;[[resetemail.helpneeded]]&lt;/p&gt;" resetMailServer="" resetMailSubject="[[resetemail.subject]]" tags="">
+            <avatar/>
             <DesignTimePermissions>
-                <Create></Create>
+                <Create/>
                 <Read>
-                    <Principal
-                     isPermitted="true"
-                     name="nonAdminUser1"
-                     type="User"></Principal>
+                    <Principal isPermitted="true" name="nonAdminUser1" type="User"/>
                 </Read>
                 <Update>
-                    <Principal
-                     isPermitted="true"
-                     name="nonAdminUser1"
-                     type="User"></Principal>
+                    <Principal isPermitted="true" name="nonAdminUser1" type="User"/>
                 </Update>
                 <Delete>
-                    <Principal
-                     isPermitted="true"
-                     name="nonAdminUser1"
-                     type="User"></Principal>
+                    <Principal isPermitted="true" name="nonAdminUser1" type="User"/>
                 </Delete>
-                <Metadata></Metadata>
+                <Metadata/>
             </DesignTimePermissions>
-            <RunTimePermissions></RunTimePermissions>
+            <RunTimePermissions/>
             <VisibilityPermissions>
                 <Visibility>
-                    <Principal
-                     isPermitted="true"
-                     name="org1"
-                     type="Organization"></Principal>
+                    <Principal isPermitted="true" name="org1" type="Organization"/>
                 </Visibility>
             </VisibilityPermissions>
-            <ConfigurationTableDefinitions></ConfigurationTableDefinitions>
-            <ConfigurationTables></ConfigurationTables>
-            <loginImage></loginImage>
+            <ConfigurationTableDefinitions/>
+            <ConfigurationTables/>
+            <loginImage/>
             <Connections>
-                <Connection
-                 from=""
-                 to="Unit 1"></Connection>
+                <Connection from="" to="Unit 1"/>
             </Connections>
             <OrganizationalUnits>
-                <OrganizationalUnit
-                 description=""
-                 name="Unit 1">
+                <OrganizationalUnit description="" name="Unit 1">
                     <Members>
                         <Members>
-                            <Member
-                             name="nonAdminUser1"
-                             type="User"></Member>
+                            <Member name="nonAdminUser1" type="User"/>
                         </Members>
                     </Members>
                 </OrganizationalUnit>

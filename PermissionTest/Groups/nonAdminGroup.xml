@@ -1,46 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Entities
- build="latest"
- majorVersion="0"
- minorVersion="0"
- modelPersistenceProviderPackage="PostgresPersistenceProviderPackage"
- revision="0"
- schemaVersion="1053"
- universal="password">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Entities build="latest" majorVersion="0" minorVersion="0" modelPersistenceProviderPackage="PostgresPersistenceProviderPackage" revision="0" schemaVersion="1053" universal="password">
     <Groups>
-        <Group
-         description=""
-         documentationContent=""
-         homeMashup=""
-         lastModifiedDate="2020-05-28T23:58:03.693+05:30"
-         name="nonAdminGroup"
-         projectName="PermissionTest"
-         scimDisplayName=""
-         scimExternalId=""
-         scimId=""
-         tags="">
-            <avatar></avatar>
+        <Group description="" documentationContent="" homeMashup="" name="nonAdminGroup" projectName="PermissionTest" scimDisplayName="" scimExternalId="" scimId="" tags="">
+            <avatar/>
             <DesignTimePermissions>
-                <Create></Create>
-                <Read></Read>
-                <Update></Update>
-                <Delete></Delete>
-                <Metadata></Metadata>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
             </DesignTimePermissions>
-            <RunTimePermissions></RunTimePermissions>
+            <RunTimePermissions/>
             <VisibilityPermissions>
-                <Visibility></Visibility>
+                <Visibility/>
             </VisibilityPermissions>
-            <ConfigurationTableDefinitions></ConfigurationTableDefinitions>
-            <ConfigurationTables></ConfigurationTables>
+            <ConfigurationTableDefinitions/>
+            <ConfigurationTables/>
             <Members>
                 <Members>
-                    <Member
-                     name="nonAdminUser1"
-                     type="User"></Member>
-                    <Member
-                     name="nonAdminUser2"
-                     type="User"></Member>
+                    <Member name="nonAdminUser1" type="User"/>
+                    <Member name="nonAdminUser2" type="User"/>
                 </Members>
             </Members>
         </Group>

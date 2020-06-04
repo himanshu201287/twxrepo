@@ -1,56 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Entities
- build="latest"
- majorVersion="0"
- minorVersion="0"
- modelPersistenceProviderPackage="PostgresPersistenceProviderPackage"
- revision="0"
- schemaVersion="1053"
- universal="password">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Entities build="latest" majorVersion="0" minorVersion="0" modelPersistenceProviderPackage="PostgresPersistenceProviderPackage" revision="0" schemaVersion="1053" universal="password">
     <Things>
-        <Thing
-         description=""
-         documentationContent=""
-         effectiveThingPackage="ConfiguredThing"
-         enabled="true"
-         homeMashup=""
-         identifier=""
-         lastModifiedDate="2020-05-28T23:58:03.698+05:30"
-         name="thing2user2"
-         projectName="PermissionTest"
-         published="false"
-         tags=""
-         thingTemplate="GenericThing"
-         valueStream="">
-            <avatar></avatar>
+        <Thing description="" documentationContent="" effectiveThingPackage="ConfiguredThing" enabled="true" homeMashup="" identifier="" name="thing2user2" projectName="PermissionTest" published="false" tags="" thingTemplate="GenericThing" valueStream="">
+            <avatar/>
             <DesignTimePermissions>
-                <Create></Create>
-                <Read></Read>
-                <Update></Update>
-                <Delete></Delete>
-                <Metadata></Metadata>
+                <Create/>
+                <Read/>
+                <Update/>
+                <Delete/>
+                <Metadata/>
             </DesignTimePermissions>
-            <RunTimePermissions></RunTimePermissions>
+            <RunTimePermissions/>
             <VisibilityPermissions>
-                <Visibility></Visibility>
+                <Visibility/>
             </VisibilityPermissions>
-            <ConfigurationTableDefinitions></ConfigurationTableDefinitions>
-            <ConfigurationTables></ConfigurationTables>
+            <ConfigurationTableDefinitions/>
+            <ConfigurationTables/>
             <ThingShape>
-                <PropertyDefinitions></PropertyDefinitions>
-                <ServiceDefinitions></ServiceDefinitions>
-                <EventDefinitions></EventDefinitions>
-                <ServiceMappings></ServiceMappings>
-                <ServiceImplementations></ServiceImplementations>
-                <Subscriptions></Subscriptions>
+                <PropertyDefinitions/>
+                <ServiceDefinitions/>
+                <EventDefinitions/>
+                <ServiceMappings/>
+                <ServiceImplementations/>
+                <Subscriptions/>
             </ThingShape>
-            <PropertyBindings></PropertyBindings>
-            <RemotePropertyBindings></RemotePropertyBindings>
-            <RemoteServiceBindings></RemoteServiceBindings>
-            <RemoteEventBindings></RemoteEventBindings>
-            <AlertConfigurations></AlertConfigurations>
-            <ImplementedShapes></ImplementedShapes>
-            <ThingProperties></ThingProperties>
+            <PropertyBindings/>
+            <RemotePropertyBindings/>
+            <RemoteServiceBindings/>
+            <RemoteEventBindings/>
+            <AlertConfigurations/>
+            <ImplementedShapes/>
+            <ThingProperties/>
         </Thing>
     </Things>
 </Entities>
